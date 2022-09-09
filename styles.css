@@ -1,0 +1,133 @@
+body{
+     color: #40514E;
+    font-family: 'Merriweather', serif;
+     margin: 0px;
+    text-align: center;
+}
+p{
+    line-height: 2;
+}
+h1{
+    color:#FF2E63; 
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+    margin-top: 50px auto 0 auto;
+}
+h2{
+    color: #790252;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding: 10px;
+}
+h3{
+    color: #11999E;
+    font-size: 1.5rem;
+}
+a{
+    color: #11999E;
+    font-family: 'Merriweather', serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+}
+
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 5%;
+}
+
+.skill hr{
+    border: hidden double dashed #eaf6f6 6px;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 5%;
+}
+
+.top-container{
+    background-color: #CCF3EE;
+    padding-top: 100px;
+    position: relative;
+}
+.middle-container{
+    margin: 100px 0;
+}
+
+.skill{
+    text-decoration: underline;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.profileimg{
+    height: 200px;
+    width: 200px;
+}
+.circular{
+    border-radius: 100%;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud{
+    bottom: 300px;  
+    left: 200px;
+    position: absolute;  
+}
+.pro{
+    text-decoration: underline;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.poetry{
+    height: 241px;
+    width: 209px
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    font-size:20px;
+    font-family: 'Merriweather', serif;
+    width:170px;
+    height:61px;
+    border-width:0px;
+    color:#3F72AF;
+    border-color:rgba(3, 30, 40, 1);
+    font-weight:bold;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    box-shadow:inset 0px 0px 20px -7px #276873;
+    text-shadow:inset 0px 0px 0px #3d768a;
+    background:linear-gradient(rgba(177, 255, 220, 0.74), rgba(81, 172, 151, 1));
+  }
+  
+  .btn:hover {
+    background: linear-gradient(rgba(81, 172, 151, 1), rgba(177, 255, 220, 0.74));
+  }
+                
+.copyright-text{
+    color: #eaf6f6;
+    font-size: .7rem;
+    padding: 20px 0;
+}                
+
+                
